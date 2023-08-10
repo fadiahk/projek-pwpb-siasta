@@ -8,7 +8,7 @@ https://templatemo.com/tm-557-grad-school
 
 
 @import url(fontawesome.css);
-@import url("<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">");
+@import url("<link href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900' rel='stylesheet'>");
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -156,7 +156,8 @@ a.menu-link { display: none; }
   }
 
   .main-menu {
-      padding-right: 30px!important;
+      padding-right: 0px!important;
+      
   }
 
   .main-menu li {
@@ -165,7 +166,7 @@ a.menu-link { display: none; }
 }
 
 .main-header {
-    background-color: rgba(255, 0, 0, 0.95);
+  background-color: rgb(21 54 95 / 95%);
     height: 80px;
     position: fixed;
     z-index: 12;
@@ -173,10 +174,10 @@ a.menu-link { display: none; }
     top: 0;
 }
 
-.main-header .logo {
+.main-header .logo {                                              /*logo kiri atas*/
     float: left;
-    line-height: 80px;
-    padding-left: 60px;
+    line-height: 50px;
+    padding-left: 30px;
 }
 
 .main-header .logo a {
@@ -230,7 +231,7 @@ a.menu-link { display: none; }
 .main-menu li .sub-menu {
     position: absolute;
     width: 160px;
-    background-color: #18233a;
+    background-color: rgba(16, 45, 78, 0.95);
     opacity: 0;
     visibility: hidden;
     transition: all 0.5s;
@@ -247,7 +248,7 @@ a.menu-link { display: none; }
     margin-left: 0px;
     margin-bottom: 15px;
     padding-bottom: 15px;
-    border-bottom: 1px solid #121b2f;
+    border-bottom: 1px solid #f5a425;
 }
 
 .main-menu li .sub-menu li:first-child {
@@ -311,7 +312,7 @@ a.menu-link { display: none; }
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(22,34,57,0.85);
+    background-color: rgba(0, 0, 0, 0.85);
     top: 0;
     left: 0;
     bottom: 7px;
@@ -328,16 +329,16 @@ a.menu-link { display: none; }
 }
 
 .main-banner .caption h6 {
-  margin-top: 0px;
+  margin-top: 125px;
   font-size: 18px;
-  text-transform: uppercase;
+  text-transform: uppercase;                                     /*pakwdlplwldpawpppppppppppp*/
   font-weight: 600;
   color: #fff;
   letter-spacing: 1px;
 }
 
 .main-banner .caption h2 {
-  margin-top: 30px;
+  margin-top: -150px;
   margin-bottom: 30px;
   font-size: 64px;
   text-transform: uppercase;
@@ -402,7 +403,7 @@ section.features .col-4 {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #0c1228;
+  background-color: rgb(21 54 95 / 95%);
   color: #fff;
   padding: 40px;
 }
@@ -491,7 +492,7 @@ section.features .col-4 {
 
 section.why-us {
     background-image: url(../images/choosing-bg.jpg);
-    background-color: #172238;
+    background-color: #fff;
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 100px;
